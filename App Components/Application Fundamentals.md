@@ -78,7 +78,7 @@ Android系统设计的一个独特之处在于，任何应用程序都可以启�
 * <activity> elements for activities
 * <service> elements for services
 * <receiver> elements for broadcast receivers
-* <provider> elements for content providers
+* <provider> elements for content providers    
   您在源代码中包含的活动、服务和内容提供者，但是在清单中没有声明，对系统是不可见的，因此，永远不能运行。然而，广播接收器可以在清单中声明，也可以在代码中动态创建（作为BroadcastReceiver对象），并通过调用registerReceiver()在系统中注册。
   有关如何为应用程序构造manifest文件的更多信息，请参见AndroidManifest。xml文件文档。
 ## Declaring component capabilities(声明组件的功能)
